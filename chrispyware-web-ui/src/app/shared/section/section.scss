@@ -1,0 +1,18 @@
+.section {
+  padding-block: var(--cw-section-padding-y);
+}
+
+.subtle {
+  background: var(--cw-color-surface-subtle);
+  border-block: var(--cw-border-width) solid var(--cw-color-border);
+}
+
+.accent {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(34, 225, 86, 0.12),
+      transparent 32rem
+    ),
+    var(--cw-color-background);
+}

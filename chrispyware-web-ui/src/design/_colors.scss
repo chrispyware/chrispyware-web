@@ -1,0 +1,31 @@
+:root {
+  // Core brand
+  --cw-color-background: #0f0f0f;
+  --cw-color-foreground: #f9f9f9;
+  --cw-color-accent: #22e156;
+
+  // Surfaces
+  --cw-color-surface: #171717;
+  --cw-color-surface-raised: #1f1f1f;
+  --cw-color-surface-subtle: #121212;
+
+  // Text
+  --cw-color-text-primary: #f9f9f9;
+  --cw-color-text-secondary: #d4d4d4;
+  --cw-color-text-muted: #9ca3af;
+
+  // Borders
+  --cw-color-border: #2a2a2a;
+  --cw-color-border-strong: #3a3a3a;
+  --cw-color-border-accent: #22e156;
+
+  // States
+  --cw-color-hover-accent: #45f778;
+  --cw-color-focus-ring: rgba(34, 225, 86, 0.38);
+
+  // Feedback
+  --cw-color-success: #22e156;
+  --cw-color-warning: #facc15;
+  --cw-color-error: #ef4444;
+  --cw-color-info: #38bdf8;
+}

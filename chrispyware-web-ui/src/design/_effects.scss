@@ -1,0 +1,11 @@
+:root {
+  --cw-shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.24);
+  --cw-shadow-md: 0 12px 32px rgba(0, 0, 0, 0.32);
+
+  --cw-glow-accent: 0 0 0 1px rgba(34, 225, 86, 0.45),
+    0 0 24px rgba(34, 225, 86, 0.16);
+
+  --cw-transition-fast: 160ms ease;
+  --cw-transition-base: 220ms ease;
+  --cw-transition-slow: 320ms ease;
+}

@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@use './design' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+
+  background: var(--cw-color-background);
+  color: var(--cw-color-text-primary);
+
+  font-family: var(--cw-font-body);
+  font-size: var(--cw-font-size-md);
+  line-height: var(--cw-line-height-normal);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

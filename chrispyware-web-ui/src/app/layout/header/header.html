@@ -1,0 +1,23 @@
+<header class="site-header">
+  <a class="brand" routerLink="/" aria-label="Chrispyware home">
+    <span class="prompt">&gt;</span>chrispyware<span class="cursor">_</span>
+  </a>
+
+  <nav class="nav-links" aria-label="Main navigation">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Home
+    </a>
+
+    <a routerLink="/apps" routerLinkActive="active">
+      Apps
+    </a>
+
+    <a routerLink="/projects" routerLinkActive="active">
+      Projects
+    </a>
+
+    <a routerLink="/contact" routerLinkActive="active">
+      Contact
+    </a>
+  </nav>
+</header>

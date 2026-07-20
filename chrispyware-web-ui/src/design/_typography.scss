@@ -1,0 +1,22 @@
+:root {
+  --cw-font-heading: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --cw-font-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --cw-font-size-xs: 0.75rem;
+  --cw-font-size-sm: 0.875rem;
+  --cw-font-size-md: 1rem;
+  --cw-font-size-lg: 1.125rem;
+  --cw-font-size-xl: 1.5rem;
+  --cw-font-size-2xl: 2rem;
+  --cw-font-size-3xl: 3rem;
+  --cw-font-size-4xl: clamp(2.5rem, 7vw, 5rem);
+
+  --cw-line-height-tight: 1.1;
+  --cw-line-height-normal: 1.6;
+  --cw-line-height-loose: 1.8;
+
+  --cw-font-weight-normal: 400;
+  --cw-font-weight-medium: 500;
+  --cw-font-weight-semibold: 600;
+  --cw-font-weight-bold: 700;
+}

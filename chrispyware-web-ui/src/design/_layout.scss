@@ -1,0 +1,11 @@
+:root {
+  --cw-page-max-width: 1180px;
+  --cw-page-gutter: clamp(1rem, 4vw, 2rem);
+  --cw-section-padding-y: clamp(4rem, 8vw, 7rem);
+
+  --cw-header-height: 72px;
+
+  --cw-breakpoint-sm: 640px;
+  --cw-breakpoint-md: 768px;
+  --cw-breakpoint-lg: 1024px;
+}
